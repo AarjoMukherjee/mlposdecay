@@ -1,0 +1,17 @@
+
+Processing Plot.C(200, 250)...
+Entries in hETrue = 998805
+Info in <TCanvas::SaveAs>: ROOT file c1.root has been created
+Info in <TCanvas::SaveAs>: ROOT file c2.root has been created
+Info in <TCanvas::SaveAs>: ROOT file c3.root has been created
+Total number of events (200 < Etrue <= 250 keV): 998805
+
+Number of missed events: 190437
+Fraction of missed events: 0.190665
+
+Number of Photoelectric events: 588921
+Fraction of Photoelectric events: 0.589626
+
+Average number of Compton events: 0.292387
+
+Average number of hits per event = 0.948283

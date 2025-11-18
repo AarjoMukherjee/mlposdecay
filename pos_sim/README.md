@@ -1,0 +1,17 @@
+- This is a simulation of an 8x8 detector array of GAGG Crystals.
+- Geometry:
+    - 3x3x10 (mm) for the GAGG Crystals (1% Ce Doping). Reference used: https://www.epic-crystal.com/data/upload/20240409/6614a154ea168.pdf
+    - 0.05 (mm) gap of TIO2 reflector
+    - Source is placed 5cm away from detector array
+    - Opening aperture 2 deg (aimed at centre 4 crystals)
+- Information Stored:
+    - Energy of incident particle gun (eTrue)
+    - Crystal Info: eDep, eCompt, ePhot, eComptLoss, eBindingEnergy
+    - Loss info: eLeak (magnitude and leakage face), eAbsorber
+    - Initial hit point
+- Structure:
+    - Initial hit point coordinates and losses are using Stepping.cc (Stepping Action)
+    - Crystal Info and Absorber eDep are stored using Detector.cc (Sensitive Detector). Energy of produced secondaries are tracked and stored.
+- Run:
+    - G4MultiThreading is enabled for faster simulation.
+    - ROOT files are added to single file for analysis.
