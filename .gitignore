@@ -1,1 +1,30 @@
+# Ignore VSCode config
+.vscode/
+
+# Build + binary directories
+build/
+*/build/
 pos_sim/build/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Object & compiled files
+*.o
+*.so
+*.a
+*.d
+*.exe
+*.out
+
+# Logs
+*.log
+
+# Temporary / OS files
+*.swp
+*.tmp
+.DS_Store
+
